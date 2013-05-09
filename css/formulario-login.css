@@ -1,0 +1,190 @@
+body{
+	background: url("../img/login/doctor.png") no-repeat 100% 10px, 
+				url("../img/login/doctora.png") no-repeat 0% 40px !important;
+	background-size:20%,20% !important;
+	font-family: 'Open Sans', sans-serif !important;
+}
+.boton_login{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #123d54;
+	padding: 10px 20px;
+		min-width: 50%;
+	max-width: 70%;
+	background: -moz-linear-gradient(
+		top,
+		#afd9fa 0%,
+		#588fad);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#afd9fa),
+		to(#588fad));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #003366;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+.linea_azul{
+	background: blue;
+	color: blue;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+.img_login{
+	display: inline-block;
+	height: 50px;
+}
+.img_login>img{
+	height: 50px;
+	display: inline-block;
+	width: 50px;
+}
+.footer>ul>li{
+	float: right;
+	list-style: none;
+	margin: 0px 10px;
+	text-decoration: none;
+}
+.footer>ul>li>a{
+	text-decoration: none;
+}
+.input_form{
+	border:1px solid green;
+	text-align: center;
+	min-width: 50%;
+	max-width: 70%;
+	padding: 10px;
+}
+#contendor_login{
+	background: lightblue;
+	background: -moz-linear-gradient(
+		top,
+		#afd9fa 0%,
+		#588fad);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#afd9fa),
+		to(#588fad));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #003366;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 0px 23px rgba(000,000,000,0.5),
+		inset 0px 0px 10px rgba(255,255,255,1);
+	box-shadow:
+		0px 0px 23px rgba(000,000,000,0.5),
+		inset 0px 0px 10px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+	border-radius: 25px;
+	padding: 50px;
+	margin: 5% auto;
+	max-width: 35%;
+	min-width: 30%;
+	text-align: center;
+}
+#contendor_login>div{
+	margin: 5% auto;
+}
+#contendor_login>div:[last-chield]{
+	text-align: right;
+}
+@media screen and (max-width: 960px){
+	body{
+	background: lightblue;
+	background: url("../img/login/doctor.png") no-repeat 100% 10px, 
+				url("../img/login/doctora.png") no-repeat 0% 40px;
+	background-size:30%,30%;
+	font-size: 120%;
+	font-weight: bold;
+	}
+	.boton_login
+	{
+	padding: 20px;
+	}
+	#contendor_login
+	{
+		background: transparent !important;
+		border-radius: 0px !important;
+		display: block;
+		margin: auto ;
+		max-width: 100%;
+		height: 100%;
+		padding:20px;
+		text-align: center;
+	}
+	#contendor_login>div
+	{
+		padding: 15px;
+	}
+	#contendor_login>div>input
+	{
+		border-radius:5px;
+		display: block;
+		margin: auto;
+		text-align: center;
+		width: 70%;
+	}
+	.input_form
+	{
+		background: rgba(255,255,255,0.4);
+	}
+}
+@media screen and (max-width: 420px){
+	body{
+	background: url("../img/login/doctor.png") no-repeat 100% 10px, 
+				url("../img/login/doctora.png") no-repeat 0% 40px;
+	background-size:50%,50%;
+	font-size: 120%;
+	font-weight: bold;
+	}
+	.boton_login{
+	padding: 20px;
+	}
+	#contendor_login
+	{
+		background: transparent !important;
+		border-radius: 0px !important;
+		border:none;
+		display: block;
+		margin: auto ;
+		max-width: 100%;
+		padding:20px;
+		height: 500%;
+		text-align: center;
+	}
+	#contendor_login>div
+	{
+		padding: 15px;
+	}
+	#contendor_login>div>input
+	{
+		border-radius:5px;
+		display: block;
+		margin: auto;
+		width: 80%;
+	}
+	.input_form
+	{
+		background: rgba(255,255,255,0.4);
+	}
+}
+

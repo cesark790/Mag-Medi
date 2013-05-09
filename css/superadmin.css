@@ -1,0 +1,188 @@
+body
+{
+	background: url('../img/fondo1.jpg');
+	background-size: 2px;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+header
+{
+	margin: 0;
+	width: 100%;
+}
+header h1, header h2
+{
+	margin: 0;
+	padding: 0.4em;
+	text-shadow:rgba(0,0,0,0.5) 0px 0px 10px;
+}
+nav
+{
+	background: rgb(0,114,198);	
+	position: fixed;
+	margin-top: -44px;
+	left: 0;
+	right: 0;
+	top: 0;
+	text-align: left;
+	transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+nav ul
+{	
+	display: inline-block;
+	height: 42px;
+	margin: 0;
+	vertical-align: top;
+}
+nav ul:nth-child(2)
+{
+	position: absolute;
+	right: 0;
+}
+nav ul:nth-child(2) li
+{
+	padding: 0.7em 0 0 0;
+}
+
+nav ul:nth-child(2) a
+{
+	padding: 24px 18px 5px 19px;
+}
+
+nav ul li
+{
+	display: inline-block;
+	margin: 0 0 0 0 ;
+	padding: 0.5em;
+	list-style: none;
+}
+nav ul li img
+{
+	padding: 0;
+	width: 45%;
+}
+nav ul li a
+{	
+	cursor: pointer;
+	color:white;
+	font-size: 0.8em;
+	text-decoration: none;
+	transition:background 1s ease;
+	padding: 1em;
+}
+nav ul li a:hover
+{
+	background: rgba(0,0,0,0.1);	
+}
+.content
+{
+	padding: .5% 0%;
+	margin-top: 32px;
+}
+.window_close
+{
+	background: url('../img/iconos/close.png') no-repeat ;
+	background-size: 95%;
+	cursor: pointer;
+	float: right;
+	height: 25px;
+	width: 25px;
+}
+.window_close:hover
+{
+	background: url('../img/iconos/close_hover.png') no-repeat ;
+	background-size: 95%;
+}
+.fecha_current
+{
+	color: rgba(50,50,255,0.9);
+	float: right;
+	margin-right: 1em;
+	margin-top: 1.2em;
+}
+.window_index
+{
+	background: white;
+	display: inline-block;
+	border: 1px solid black;
+	height: 300px;
+	margin: 0.5%;
+	vertical-align: top;
+	width: 48%;
+}
+.window_info
+{
+	color: white;
+	background: rgb(0,114,198);
+	padding: 0.3em 0.5em 0.3em 1.5em;
+	text-align: left;
+}
+.window_inactive
+{
+	color:black !important;
+	cursor: pointer !important;
+	background: rgba(0,114,198,0.4) !important;
+}
+.windows_nav
+{
+	display: none;
+	text-align: left;
+}
+.windows_nav div
+{	
+	color: white;
+	cursor: default;
+	float:left;
+	background: rgba(0,114,198,1);
+	border: .7px solid black;
+	padding: 0.5em;
+	width: auto !important;
+}
+.window_mas
+{
+	background:rgb(0,114,198);
+	border: 1px solid #0072C2;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0.1em 0.3em 0.1em 0.3em;
+	width: 25px !important;
+	transition:all .5s ease;
+}
+.window_mas_content
+{
+	position: absolute;
+	width: 50%;
+}
+.window_mas:hover
+{
+	transform:scale(1.2);
+}
+.width_auto
+{
+	width: 90% !important;
+}
+.msg
+{
+	margin: 0;
+	padding:0;
+	width: 35%;
+}
+.name_user
+{
+	padding: 0 !important;	
+	color:white;
+	margin-top: 0.5em;
+	margin-right: 0.2em;
+	vertical-align: top;
+}
