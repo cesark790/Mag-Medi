@@ -1,0 +1,1296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin t&iacute;tulo</title>
+<style type="text/css">
+<!--
+.Estilo5 {font-family: tahoma; font-weight: bold; font-size: 11px; color: #FFFFFF; }
+-->
+</style>
+</head>
+
+<table width="800" border="1" align="center" id="table1">
+  <tr class="button">
+    <th><div align="center">Clave Sistema</div></th>
+    <th><div align="center">Clave Interna</div></th>
+    <th><div align="center">Nombre</div></th>
+    <th><div align="center">Apellido Paterno</div></th>
+    <th><div align="center">Apellido Materno</div></th>
+    <th><div align="center">Fecha_Nacimiento</div></th>
+    <th><div align="center">Edad</div></th>
+    <th><div align="center">Lugar Nacimiento</div></th>
+    <th><div align="center">Estado Civil</div></th>
+    <th><div align="center">IMSS</div></th>    
+    <th><div align="center">RFC</div></th>
+    <th><div align="center">CURP</div></th>
+    <th><div align="center">INFONAVIT</div></th>
+    <th><div align="center">VSM</div></th>
+    <th><div align="center">Domicilio</div></th>
+    <th><div align="center">Teléfono Uno</div></th>
+    <th><div align="center">Teléfono Dos</div></th>
+    <th><div align="center">Email</div></th>
+    <th><div align="center">Fecha Ingreso</div></th>
+    <th><div align="center">Días de Contrato</div></th>
+    <th><div align="center">Tipo de Contrato</div></th>
+    <th><div align="center">Puesto</div></th>
+    <th><div align="center">Departamento</div></th>
+    <th><div align="center">Sueldo Mensual</div></th>
+    <th><div align="center">Accidente Avisar</div></th>
+    <th><div align="center">Parentesco</div></th>
+    <th><div align="center">Telefono de aviso</div></th>
+    <th><div align="center">Estatus de empleado</div></th>
+    <th><div align="center">Fecha de Baja</div></th>
+    <th><div align="center">Motivo de Baja</div></th>
+    <th><div align="center">Capturo</div></th>
+    <th><div align="center">Fecha de Captura</div></th>
+    <th><div align="center">Actualizo</div></th>
+    <th><div align="center">Fecha de Actualizaci&oacute;n</div></th>
+    <th><div align="center">Salario diario</div></th>
+    <th><div align="center">Cliente</div></th>
+    <th><div align="center">Consultor</div></th>
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4877</div></td>
+    <td class="letras_fila"><div align="left">6001</div></td>
+    <td class="letras_fila"><div align="left">Emanuel</div></td>
+    <td class="letras_fila"><div align="center">Garcia</div></td>    
+    <td class="letras_fila"><div align="center">Gutierrez</div></td>   
+    <td class="letras_fila"><div align="center">1983-02-04</div></td>   
+    <td class="letras_fila"><div align="center">30</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">28078301265</div></td> 
+    <td class="letras_fila"><div align="center">GAGE830204GV0</div></td> 
+    <td class="letras_fila"><div align="center">GAGE830204HDFRTM04</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Calle 33 # 156, Ignacio Zaragoza, , Venustiano Carranza, </div></td>
+    <td class="letras_fila"><div align="center">5784-7901</div></td>
+    <td class="letras_fila"><div align="center">04455-2178-2338</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2011-08-10</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">EJECUTIVO TELEFONICO</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:46:55</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4878</div></td>
+    <td class="letras_fila"><div align="left">6000</div></td>
+    <td class="letras_fila"><div align="left">Maria Yasmin</div></td>
+    <td class="letras_fila"><div align="center">Ortega</div></td>    
+    <td class="letras_fila"><div align="center">Perez</div></td>   
+    <td class="letras_fila"><div align="center">1985-11-20</div></td>   
+    <td class="letras_fila"><div align="center">27</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">45078502585</div></td> 
+    <td class="letras_fila"><div align="center">OEPY851120JK3</div></td> 
+    <td class="letras_fila"><div align="center">OEPY851120MDFRRS05</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Av. Tlahuac # 3753 Int. 3, Pueblo Culhuacan, , Iztapalapa, </div></td>
+    <td class="letras_fila"><div align="center">5037-4893</div></td>
+    <td class="letras_fila"><div align="center">04455-3236-8630</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2011-08-10</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">EJECUTIVO TELEFONICO</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:47:11</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4881</div></td>
+    <td class="letras_fila"><div align="left">6004</div></td>
+    <td class="letras_fila"><div align="left">Gerardo</div></td>
+    <td class="letras_fila"><div align="center">Zamora</div></td>    
+    <td class="letras_fila"><div align="center">Granados</div></td>   
+    <td class="letras_fila"><div align="center">1984-09-25</div></td>   
+    <td class="letras_fila"><div align="center">28</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Casado</div></td> 
+    <td class="letras_fila"><div align="center">45048430727</div></td> 
+    <td class="letras_fila"><div align="center">ZAGG8409254B9</div></td> 
+    <td class="letras_fila"><div align="center">ZAGG840925HDFMRR05</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">6to Callejon De Pachicalco # 21, Barrio San Ignacio, , Iztapalapa, </div></td>
+    <td class="letras_fila"><div align="center">5685-5726</div></td>
+    <td class="letras_fila"><div align="center">04455-2196-9661</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2011-12-12</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">EJECUTIVO TELEFONICO</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:48:01</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4882</div></td>
+    <td class="letras_fila"><div align="left">6005</div></td>
+    <td class="letras_fila"><div align="left">Karla Andrea</div></td>
+    <td class="letras_fila"><div align="center">Carrasco</div></td>    
+    <td class="letras_fila"><div align="center">Morales</div></td>   
+    <td class="letras_fila"><div align="center">1992-12-10</div></td>   
+    <td class="letras_fila"><div align="center">20</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">45109203237</div></td> 
+    <td class="letras_fila"><div align="center">CAMK921210</div></td> 
+    <td class="letras_fila"><div align="center">CAMK921210MDFRRR03</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Calle Iztaccihuatl # 96, Edif. D5, Depto. 5, Paraje San Juan, , Iztapalapa, </div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">04455-2113-7432</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-01-10</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">EJECUTIVO TELEFONICO</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:48:22</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4883</div></td>
+    <td class="letras_fila"><div align="left">6008</div></td>
+    <td class="letras_fila"><div align="left">Brenda</div></td>
+    <td class="letras_fila"><div align="center">Muñoz</div></td>    
+    <td class="letras_fila"><div align="center">Martinez</div></td>   
+    <td class="letras_fila"><div align="center">1993-08-23</div></td>   
+    <td class="letras_fila"><div align="center">19</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">46119301326</div></td> 
+    <td class="letras_fila"><div align="center">MUMB930823</div></td> 
+    <td class="letras_fila"><div align="center">MUMB930823MDFXRR07</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Av. San Lorenzo # 750, Mz. 4, Edif. 9, Depto. 301, San Nicolas Tolentino, , Iztapalapa, </div></td>
+    <td class="letras_fila"><div align="center">5970-3543</div></td>
+    <td class="letras_fila"><div align="center">04455-4769-22-32</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-03-01</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">EJECUTIVO TELEFONICO</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:48:43</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4884</div></td>
+    <td class="letras_fila"><div align="left">6007</div></td>
+    <td class="letras_fila"><div align="left">Miguel Angel</div></td>
+    <td class="letras_fila"><div align="center">Sanchez</div></td>    
+    <td class="letras_fila"><div align="center">Oyola</div></td>   
+    <td class="letras_fila"><div align="center">1989-05-05</div></td>   
+    <td class="letras_fila"><div align="center">23</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">45098950137</div></td> 
+    <td class="letras_fila"><div align="center">SAOM890505</div></td> 
+    <td class="letras_fila"><div align="center">SAOM890505HDFNYG09</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Tarasco # 52, Edif. C-2, Depto. 3, Desarrollo Urbano Quetzalcoatl, , Iztapalapa, </div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">04455-2131-1408</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-03-01</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">EJECUTIVO TELEFONICO</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:49:02</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4886</div></td>
+    <td class="letras_fila"><div align="left">6011</div></td>
+    <td class="letras_fila"><div align="left">Kitsia Felicitas</div></td>
+    <td class="letras_fila"><div align="center">Sanchez</div></td>    
+    <td class="letras_fila"><div align="center">Garcia</div></td>   
+    <td class="letras_fila"><div align="center">1991-03-16</div></td>   
+    <td class="letras_fila"><div align="center">22</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">42119124230</div></td> 
+    <td class="letras_fila"><div align="center">SAGK910316JY8</div></td> 
+    <td class="letras_fila"><div align="center">SAGK910316MDFNRT02</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Villa Poder Mz. 12. Lt. 8, La Polvorilla, , Iztapalapa, </div></td>
+    <td class="letras_fila"><div align="center">2458-5081</div></td>
+    <td class="letras_fila"><div align="center">04455-3075-0417</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-04-09</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">EJECUTIVO TELEFONICO</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:49:32</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4888</div></td>
+    <td class="letras_fila"><div align="left">6021</div></td>
+    <td class="letras_fila"><div align="left">Jose Luis</div></td>
+    <td class="letras_fila"><div align="center">Muñoz</div></td>    
+    <td class="letras_fila"><div align="center">Robles</div></td>   
+    <td class="letras_fila"><div align="center">1984-02-28</div></td>   
+    <td class="letras_fila"><div align="center">29</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">14048432380</div></td> 
+    <td class="letras_fila"><div align="center">MURL840228P90</div></td> 
+    <td class="letras_fila"><div align="center">MURL840228HQTXBS00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Mar De La Serenidad # 8, Los Olivos, , Corregidora , </div></td>
+    <td class="letras_fila"><div align="center">014421-9646-56</div></td>
+    <td class="letras_fila"><div align="center">0454423-5359-83 / Nextel: 014424145194</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-07-16</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">VERIFICADOR</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2100</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:44:08</div></td>
+    <td class="letras_fila"><div align="center">70</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4889</div></td>
+    <td class="letras_fila"><div align="left">6022</div></td>
+    <td class="letras_fila"><div align="left">Jose</div></td>
+    <td class="letras_fila"><div align="center">Fuentes</div></td>    
+    <td class="letras_fila"><div align="center">Alfaro</div></td>   
+    <td class="letras_fila"><div align="center">1979-10-16</div></td>   
+    <td class="letras_fila"><div align="center">33</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Casado</div></td> 
+    <td class="letras_fila"><div align="center">12987927634</div></td> 
+    <td class="letras_fila"><div align="center">FUAJ791016QM3</div></td> 
+    <td class="letras_fila"><div align="center">FUAJ791016HDFNLS04</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Cobalto # 906, Valle De Señora, , Leon, </div></td>
+    <td class="letras_fila"><div align="center">0147-7311-4610</div></td>
+    <td class="letras_fila"><div align="center">045-4771-2992-07</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-07-16</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">VERIFICADOR</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2100</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:44:19</div></td>
+    <td class="letras_fila"><div align="center">70</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4890</div></td>
+    <td class="letras_fila"><div align="left">6023</div></td>
+    <td class="letras_fila"><div align="left">Marlene</div></td>
+    <td class="letras_fila"><div align="center">Cordova</div></td>    
+    <td class="letras_fila"><div align="center">Luna</div></td>   
+    <td class="letras_fila"><div align="center">1988-08-28</div></td>   
+    <td class="letras_fila"><div align="center">24</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">82078866686</div></td> 
+    <td class="letras_fila"><div align="center">COLM880828</div></td> 
+    <td class="letras_fila"><div align="center">COLM880828MTCRNR03</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Super Manzana 253, Mz. 5, Lt. 4. Privada Ganso # 34, Galaxia Del Sol, , Cancún, </div></td>
+    <td class="letras_fila"><div align="center">01-99888-66085</div></td>
+    <td class="letras_fila"><div align="center">045-9982-2719-68</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-07-16</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">VERIFICADOR</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2100</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:44:31</div></td>
+    <td class="letras_fila"><div align="center">70</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4891</div></td>
+    <td class="letras_fila"><div align="left">6024</div></td>
+    <td class="letras_fila"><div align="left">Raymundo Eduardo</div></td>
+    <td class="letras_fila"><div align="center">Parra</div></td>    
+    <td class="letras_fila"><div align="center">Zuñiga</div></td>   
+    <td class="letras_fila"><div align="center">1975-05-28</div></td>   
+    <td class="letras_fila"><div align="center">37</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Casado</div></td> 
+    <td class="letras_fila"><div align="center">15927540144</div></td> 
+    <td class="letras_fila"><div align="center">PAZR750528</div></td> 
+    <td class="letras_fila"><div align="center">PAZR750528HDFRXY08</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Junta De Jaujilla # 222-B, Jaujilla, , Morelia, </div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">045-4431-9025-74</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-07-16</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">VERIFICADOR</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2100</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:44:44</div></td>
+    <td class="letras_fila"><div align="center">70</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4893</div></td>
+    <td class="letras_fila"><div align="left">6018</div></td>
+    <td class="letras_fila"><div align="left">Andres</div></td>
+    <td class="letras_fila"><div align="center">De La Luz</div></td>    
+    <td class="letras_fila"><div align="center">Duran</div></td>   
+    <td class="letras_fila"><div align="center">1985-05-24</div></td>   
+    <td class="letras_fila"><div align="center">27</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Casado</div></td> 
+    <td class="letras_fila"><div align="center">16048531194</div></td> 
+    <td class="letras_fila"><div align="center">LUDA850524</div></td> 
+    <td class="letras_fila"><div align="center">LUDA850524HMCZRN06</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Calle 2 De Enero #4, San Pablo Autopan, , Toluca, </div></td>
+    <td class="letras_fila"><div align="center">01722-2967-971</div></td>
+    <td class="letras_fila"><div align="center">045 7222 4433 10</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-07-23</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">VERIFICADOR</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2100</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:45:19</div></td>
+    <td class="letras_fila"><div align="center">70</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4895</div></td>
+    <td class="letras_fila"><div align="left">6027</div></td>
+    <td class="letras_fila"><div align="left">Joaquin</div></td>
+    <td class="letras_fila"><div align="center">Coras</div></td>    
+    <td class="letras_fila"><div align="center">Garcia</div></td>   
+    <td class="letras_fila"><div align="center">1969-12-18</div></td>   
+    <td class="letras_fila"><div align="center">43</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">28906906178</div></td> 
+    <td class="letras_fila"><div align="center">COGJ6912186Y8</div></td> 
+    <td class="letras_fila"><div align="center">COGJ691218HDFRRQ01</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Fernando Montes De Oca #849, Los Angeles, , Saltillo, </div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0458442181634</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-08-01</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">VERIFICADOR</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2100</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:45:32</div></td>
+    <td class="letras_fila"><div align="center">70</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4899</div></td>
+    <td class="letras_fila"><div align="left">6033</div></td>
+    <td class="letras_fila"><div align="left">Brenda Isabel</div></td>
+    <td class="letras_fila"><div align="center">Velazquez</div></td>    
+    <td class="letras_fila"><div align="center">Contreras</div></td>   
+    <td class="letras_fila"><div align="center">1991-11-16</div></td>   
+    <td class="letras_fila"><div align="center">21</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Union Libre</div></td> 
+    <td class="letras_fila"><div align="center">45119177066</div></td> 
+    <td class="letras_fila"><div align="center">VECB911116</div></td> 
+    <td class="letras_fila"><div align="center">VECB911116MDFLNR05</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Matamoros #25 Edif. J Depto. 302, Santa Cruz Meyehualco, , Iztapalapa, </div></td>
+    <td class="letras_fila"><div align="center">15460985</div></td>
+    <td class="letras_fila"><div align="center">04455 22613923</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-08-09</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">EJECUTIVO TELEFONICO</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:51:19</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4900</div></td>
+    <td class="letras_fila"><div align="left">6036</div></td>
+    <td class="letras_fila"><div align="left">Sandra Monserrat</div></td>
+    <td class="letras_fila"><div align="center">Picazo</div></td>    
+    <td class="letras_fila"><div align="center">Martinez</div></td>   
+    <td class="letras_fila"><div align="center">1983-05-10</div></td>   
+    <td class="letras_fila"><div align="center">29</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">28078307221</div></td> 
+    <td class="letras_fila"><div align="center">PIMS8305102X7</div></td> 
+    <td class="letras_fila"><div align="center">PIMS830510MDFCRN05</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Jose Rivera #145 Depto. 4, Moctezuma 1era. Seccion, , Venustiano Carranza, </div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">04455 35050740</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-08-09</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">CAPTURISTA</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2100</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:24:46</div></td>
+    <td class="letras_fila"><div align="center">70</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4901</div></td>
+    <td class="letras_fila"><div align="left">6013</div></td>
+    <td class="letras_fila"><div align="left">Jorge</div></td>
+    <td class="letras_fila"><div align="center">Sanchez</div></td>    
+    <td class="letras_fila"><div align="center">Tecalco</div></td>   
+    <td class="letras_fila"><div align="center">1979-10-14</div></td>   
+    <td class="letras_fila"><div align="center">33</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">65997911071</div></td> 
+    <td class="letras_fila"><div align="center">SATJ791014</div></td> 
+    <td class="letras_fila"><div align="center">SATJ791014HVZNCR07</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Bernal Diaz Del Castillo #207, Revolucion, , Acajete  , </div></td>
+    <td class="letras_fila"><div align="center">2291500279</div></td>
+    <td class="letras_fila"><div align="center">2291274897</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-06-25</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">VERIFICADOR</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2100</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:45:48</div></td>
+    <td class="letras_fila"><div align="center">70</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4902</div></td>
+    <td class="letras_fila"><div align="left">6017</div></td>
+    <td class="letras_fila"><div align="left">Laura Cristina</div></td>
+    <td class="letras_fila"><div align="center">Varona</div></td>    
+    <td class="letras_fila"><div align="center">Flores</div></td>   
+    <td class="letras_fila"><div align="center">1990-10-19</div></td>   
+    <td class="letras_fila"><div align="center">22</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">42099003693</div></td> 
+    <td class="letras_fila"><div align="center">VAFL901019</div></td> 
+    <td class="letras_fila"><div align="center">VAFL901019MDFRLR05</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Av. Miguel Hidalgo #94, San Francisco Culhuacan, , Coyoacán, </div></td>
+    <td class="letras_fila"><div align="center">47538392</div></td>
+    <td class="letras_fila"><div align="center">04455 31903828</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-07-09</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">AUXILIAR ADMINISTRATIVO</div></td>
+    <td class="letras_fila"><div align="center">ADMINISTRACION</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:22:20</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4906</div></td>
+    <td class="letras_fila"><div align="left">6037</div></td>
+    <td class="letras_fila"><div align="left">Eduardo</div></td>
+    <td class="letras_fila"><div align="center">Contreras</div></td>    
+    <td class="letras_fila"><div align="center">Rios</div></td>   
+    <td class="letras_fila"><div align="center">1987-07-06</div></td>   
+    <td class="letras_fila"><div align="center">25</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">45098703973</div></td> 
+    <td class="letras_fila"><div align="center">CORE870706</div></td> 
+    <td class="letras_fila"><div align="center">CORE870706HDFNSD00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2da De Luis Araiza Sm 5 Mz 16 Lt 22, Unidad Habitacional Vicente Guerrero, , Iztapalapa, </div></td>
+    <td class="letras_fila"><div align="center">15464104</div></td>
+    <td class="letras_fila"><div align="center">04455 20967205</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-08-27</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">AUXILIAR ADMINISTRATIVO</div></td>
+    <td class="letras_fila"><div align="center">ADMINISTRACION</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:22:34</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4907</div></td>
+    <td class="letras_fila"><div align="left">6040</div></td>
+    <td class="letras_fila"><div align="left">Hugo Israel</div></td>
+    <td class="letras_fila"><div align="center">Lopez</div></td>    
+    <td class="letras_fila"><div align="center">Resendiz</div></td>   
+    <td class="letras_fila"><div align="center">1980-03-19</div></td>   
+    <td class="letras_fila"><div align="center">33</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Union Libre</div></td> 
+    <td class="letras_fila"><div align="center">68958056407</div></td> 
+    <td class="letras_fila"><div align="center">LORH800319BM6</div></td> 
+    <td class="letras_fila"><div align="center">LORH800319HMCPSG02</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Acamapichtli Mz 14 Lt 11, Ampliacion Los Reyes, , Iztapalapa, </div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">04455 30693778</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-08-27</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">CAPTURISTA</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">1950</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:25:01</div></td>
+    <td class="letras_fila"><div align="center">65</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4909</div></td>
+    <td class="letras_fila"><div align="left">6042</div></td>
+    <td class="letras_fila"><div align="left">Diana Belem</div></td>
+    <td class="letras_fila"><div align="center">Flores</div></td>    
+    <td class="letras_fila"><div align="center">Oliva</div></td>   
+    <td class="letras_fila"><div align="center">1988-03-27</div></td>   
+    <td class="letras_fila"><div align="center">25</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Casado</div></td> 
+    <td class="letras_fila"><div align="center">96108824150</div></td> 
+    <td class="letras_fila"><div align="center">FOOD880327</div></td> 
+    <td class="letras_fila"><div align="center">FOOD880327MDFLLN03</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Jose Maria Vilaseca Mz 16 Lt 17, Santa Maria Nativitas, , Chimalhuacán, </div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">04455 34513770</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-09-10</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">EJECUTIVO TELEFONICO</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:51:57</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4910</div></td>
+    <td class="letras_fila"><div align="left">6045</div></td>
+    <td class="letras_fila"><div align="left">Ruben Jonathan</div></td>
+    <td class="letras_fila"><div align="center">Flores</div></td>    
+    <td class="letras_fila"><div align="center">Corona</div></td>   
+    <td class="letras_fila"><div align="center">1993-01-06</div></td>   
+    <td class="letras_fila"><div align="center">20</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">45129335043</div></td> 
+    <td class="letras_fila"><div align="center">FOCR930106</div></td> 
+    <td class="letras_fila"><div align="center">FOCR930106HDFLRB06</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Av. Revolucion Mz 503 Lt 03, Ixtlahuacan, , Iztapalapa, </div></td>
+    <td class="letras_fila"><div align="center">26356028</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-09-10</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">EJECUTIVO TELEFONICO</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:52:13</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4911</div></td>
+    <td class="letras_fila"><div align="left">6049</div></td>
+    <td class="letras_fila"><div align="left">Mario Alejandro</div></td>
+    <td class="letras_fila"><div align="center">Alvarez</div></td>    
+    <td class="letras_fila"><div align="center">Gonzalez</div></td>   
+    <td class="letras_fila"><div align="center">1990-03-26</div></td>   
+    <td class="letras_fila"><div align="center">23</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">45109028626</div></td> 
+    <td class="letras_fila"><div align="center">AAGM900326</div></td> 
+    <td class="letras_fila"><div align="center">AAGM900326HDFLNR03</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Clavel # 318, Ampliacion Nativitas La Joya, , Xochimilco, </div></td>
+    <td class="letras_fila"><div align="center">55483853</div></td>
+    <td class="letras_fila"><div align="center">0445539822855</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-09-25</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">CAPTURISTA</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2100</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:25:17</div></td>
+    <td class="letras_fila"><div align="center">70</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4912</div></td>
+    <td class="letras_fila"><div align="left">6051</div></td>
+    <td class="letras_fila"><div align="left">Israel</div></td>
+    <td class="letras_fila"><div align="center">Orta</div></td>    
+    <td class="letras_fila"><div align="center">Nava</div></td>   
+    <td class="letras_fila"><div align="center">1989-12-04</div></td>   
+    <td class="letras_fila"><div align="center">23</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Soltero</div></td> 
+    <td class="letras_fila"><div align="center">90108922692</div></td> 
+    <td class="letras_fila"><div align="center">OANI891204J24</div></td> 
+    <td class="letras_fila"><div align="center">OANI891204HMCRVS06</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Carretera Naucalpan Toluca # 2059-7, Olimpica Radio 2 Seccion, , Naucalpan de Juárez, </div></td>
+    <td class="letras_fila"><div align="center">53021611</div></td>
+    <td class="letras_fila"><div align="center">04455 26700594</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-10-08</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">VERIFICADOR</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2100</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:46:17</div></td>
+    <td class="letras_fila"><div align="center">70</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4919</div></td>
+    <td class="letras_fila"><div align="left">6061</div></td>
+    <td class="letras_fila"><div align="left">Eder</div></td>
+    <td class="letras_fila"><div align="center">Vazquez</div></td>    
+    <td class="letras_fila"><div align="center">Cerrillos</div></td>   
+    <td class="letras_fila"><div align="center">1983-03-30</div></td>   
+    <td class="letras_fila"><div align="center">30</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Casado</div></td> 
+    <td class="letras_fila"><div align="center">42108302904</div></td> 
+    <td class="letras_fila"><div align="center">VACE830330PF0</div></td> 
+    <td class="letras_fila"><div align="center">VACE830330HDFZRD00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Cincel # 52, Aaron Saenz, , Venustiano Carranza, </div></td>
+    <td class="letras_fila"><div align="center">55525562</div></td>
+    <td class="letras_fila"><div align="center">04455 42519744</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-10-24</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">EJECUTIVO TELEFONICO</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:53:23</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">4922</div></td>
+    <td class="letras_fila"><div align="left">6064</div></td>
+    <td class="letras_fila"><div align="left">Araceli</div></td>
+    <td class="letras_fila"><div align="center">Quiroz</div></td>    
+    <td class="letras_fila"><div align="center">Laguna</div></td>   
+    <td class="letras_fila"><div align="center">1971-07-17</div></td>   
+    <td class="letras_fila"><div align="center">41</div></td>   
+    <td class="letras_fila"><div align="center"></div></td>   
+    <td class="letras_fila"><div align="center">Casado</div></td> 
+    <td class="letras_fila"><div align="center">11907142647</div></td> 
+    <td class="letras_fila"><div align="center">QULA710717</div></td> 
+    <td class="letras_fila"><div align="center">QULA710717MDFRGR05</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">Unidad Tlalpan 3-A # 413 Mult. Tlalpan, Educacion, , Coyoacán, </div></td>
+    <td class="letras_fila"><div align="center">55497872</div></td>
+    <td class="letras_fila"><div align="center">04455 17791248</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-10-24</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">EJECUTIVO TELEFONICO</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center">0000-00-00</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">0000-00-00 00:00:00</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2012-11-26 13:54:00</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">5189</div></td>
+    <td class="letras_fila"><div align="left">6075</div></td>
+    <td class="letras_fila"><div align="left">ARTURO GUILLERMO</div></td>
+    <td class="letras_fila"><div align="center">DIAZ</div></td>    
+    <td class="letras_fila"><div align="center">SANCHEZ</div></td>   
+    <td class="letras_fila"><div align="center">1971-12-14</div></td>   
+    <td class="letras_fila"><div align="center">41</div></td>   
+    <td class="letras_fila"><div align="center">Mexico D.F</div></td>   
+    <td class="letras_fila"><div align="center">Casado (a)</div></td> 
+    <td class="letras_fila"><div align="center">45897153412</div></td> 
+    <td class="letras_fila"><div align="center">DISA711214</div></td> 
+    <td class="letras_fila"><div align="center">DISA711214HDFZNR02</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">ZARAGOZA MZ 23 LT. 17 INT. 4, SAN JUAN XALPA, , Iztapalapa, </div></td>
+    <td class="letras_fila"><div align="center">54266201</div></td>
+    <td class="letras_fila"><div align="center">04455 33205571</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2013-03-01</div></td>
+    <td class="letras_fila"><div align="center">28</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">AYUDANTE GENERAL</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2550</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2013-03-13 11:37:39</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2013-03-13 11:37:39</div></td>
+    <td class="letras_fila"><div align="center">85</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">5200</div></td>
+    <td class="letras_fila"><div align="left">6076</div></td>
+    <td class="letras_fila"><div align="left">MONICA HIZEL</div></td>
+    <td class="letras_fila"><div align="center">MACIAS</div></td>    
+    <td class="letras_fila"><div align="center">GARCIA</div></td>   
+    <td class="letras_fila"><div align="center">1995-01-08</div></td>   
+    <td class="letras_fila"><div align="center">18</div></td>   
+    <td class="letras_fila"><div align="center">Mexico D.F</div></td>   
+    <td class="letras_fila"><div align="center">Soltero (a)</div></td> 
+    <td class="letras_fila"><div align="center">45139503879</div></td> 
+    <td class="letras_fila"><div align="center">MAGM950108</div></td> 
+    <td class="letras_fila"><div align="center">MAGM950108MDFCRN06</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">PIEDRA DEL SOL 67 A, AVANTE, , Coyoacán, </div></td>
+    <td class="letras_fila"><div align="center">56890382</div></td>
+    <td class="letras_fila"><div align="center">0445563171571</div></td>
+    <td class="letras_fila"><div align="center">hizeel.a@hotmail.com</div></td>
+    <td class="letras_fila"><div align="center">2013-03-16</div></td>
+    <td class="letras_fila"><div align="center">28</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">EJECUTIVO TELEFONICO</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2013-03-22 15:08:23</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2013-03-22 15:08:23</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">5209</div></td>
+    <td class="letras_fila"><div align="left">6068</div></td>
+    <td class="letras_fila"><div align="left">ANA GABRIELA</div></td>
+    <td class="letras_fila"><div align="center">BUENDIA</div></td>    
+    <td class="letras_fila"><div align="center">CASTILLO</div></td>   
+    <td class="letras_fila"><div align="center">1990-07-07</div></td>   
+    <td class="letras_fila"><div align="center">22</div></td>   
+    <td class="letras_fila"><div align="center">MEXICO DF</div></td>   
+    <td class="letras_fila"><div align="center">Soltero (a)</div></td> 
+    <td class="letras_fila"><div align="center">96129043632</div></td> 
+    <td class="letras_fila"><div align="center">BUCA900707</div></td> 
+    <td class="letras_fila"><div align="center">BUCA900707MDFNSN00</div></td>
+    <td class="letras_fila"><div align="center">NO</div></td>
+    <td class="letras_fila"><div align="center">NO</div></td>
+    <td class="letras_fila"><div align="center">AV. NEZAHUALCOYOTL # 46, CENTRO, , Chimalhuacán, </div></td>
+    <td class="letras_fila"><div align="center">58520529</div></td>
+    <td class="letras_fila"><div align="center">04455 16381663</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2012-11-26</div></td>
+    <td class="letras_fila"><div align="center">26</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">AUXILIAR ADMINISTRATIVO</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2700</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2013-04-03 10:36:54</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2013-04-03 10:48:50</div></td>
+    <td class="letras_fila"><div align="center">90</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">5210</div></td>
+    <td class="letras_fila"><div align="left">6071</div></td>
+    <td class="letras_fila"><div align="left">LUIS MANUEL</div></td>
+    <td class="letras_fila"><div align="center">GONZALEZ</div></td>    
+    <td class="letras_fila"><div align="center">NERI</div></td>   
+    <td class="letras_fila"><div align="center">1982-07-31</div></td>   
+    <td class="letras_fila"><div align="center">30</div></td>   
+    <td class="letras_fila"><div align="center">MEXICO DF</div></td>   
+    <td class="letras_fila"><div align="center">Union Libre</div></td> 
+    <td class="letras_fila"><div align="center">45008226149</div></td> 
+    <td class="letras_fila"><div align="center">GONL820731</div></td> 
+    <td class="letras_fila"><div align="center">GONL820731HDFNRS09</div></td>
+    <td class="letras_fila"><div align="center">NO</div></td>
+    <td class="letras_fila"><div align="center">NO</div></td>
+    <td class="letras_fila"><div align="center">ORQUIDEA #42, LA MALINCHE, , Magdalena Contreras, </div></td>
+    <td class="letras_fila"><div align="center">44303571</div></td>
+    <td class="letras_fila"><div align="center">04455 3239 7326</div></td>
+    <td class="letras_fila"><div align="center">kily08n@hotmail.com</div></td>
+    <td class="letras_fila"><div align="center">2013-01-09</div></td>
+    <td class="letras_fila"><div align="center">26</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">VERIFICADOR</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2100</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2013-04-03 10:42:16</div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2013-04-03 10:49:06</div></td>
+    <td class="letras_fila"><div align="center">70</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">5211</div></td>
+    <td class="letras_fila"><div align="left">6072</div></td>
+    <td class="letras_fila"><div align="left">JOSE MANUEL</div></td>
+    <td class="letras_fila"><div align="center">QUINTERO</div></td>    
+    <td class="letras_fila"><div align="center">DURAN</div></td>   
+    <td class="letras_fila"><div align="center">1986-06-19</div></td>   
+    <td class="letras_fila"><div align="center">26</div></td>   
+    <td class="letras_fila"><div align="center">MEXICO DF</div></td>   
+    <td class="letras_fila"><div align="center">Soltero (a)</div></td> 
+    <td class="letras_fila"><div align="center">96038601041</div></td> 
+    <td class="letras_fila"><div align="center">QUDM860619</div></td> 
+    <td class="letras_fila"><div align="center">QUDM860619HDFNRN09</div></td>
+    <td class="letras_fila"><div align="center">NO</div></td>
+    <td class="letras_fila"><div align="center">NO</div></td>
+    <td class="letras_fila"><div align="center">JOSEFA ORTIZ DE DOMINGUEZ MZ 27 LTE.9 DEPTO.3, FRACC. LOS HEROES, , Ixtapaluca, </div></td>
+    <td class="letras_fila"><div align="center">59835816</div></td>
+    <td class="letras_fila"><div align="center">04455 25676735</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2013-01-24</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">VERIFICADOR</div></td>
+    <td class="letras_fila"><div align="center">EXTERNO</div></td>
+    <td class="letras_fila"><div align="center">2100</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2013-04-03 10:47:29</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2013-04-03 10:47:29</div></td>
+    <td class="letras_fila"><div align="center">70</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+  <tr>
+    <td class="letras_fila"><div align="left">5212</div></td>
+    <td class="letras_fila"><div align="left">6074</div></td>
+    <td class="letras_fila"><div align="left">JAIME</div></td>
+    <td class="letras_fila"><div align="center">ANGUIANO</div></td>    
+    <td class="letras_fila"><div align="center">RAMIREZ</div></td>   
+    <td class="letras_fila"><div align="center">1981-03-21</div></td>   
+    <td class="letras_fila"><div align="center">32</div></td>   
+    <td class="letras_fila"><div align="center">Guadalajara</div></td>   
+    <td class="letras_fila"><div align="center">Casado (a)</div></td> 
+    <td class="letras_fila"><div align="center">54008104868</div></td> 
+    <td class="letras_fila"><div align="center">AURJ810321</div></td> 
+    <td class="letras_fila"><div align="center">AURJ810321HJCNMM03</div></td>
+    <td class="letras_fila"><div align="center">NO</div></td>
+    <td class="letras_fila"><div align="center">NO</div></td>
+    <td class="letras_fila"><div align="center">GRANITO NORTE #29, PASEO DEL PEDREGAL 44, , Guadalajara , </div></td>
+    <td class="letras_fila"><div align="center">36836068</div></td>
+    <td class="letras_fila"><div align="center">0453317080319</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2013-02-18</div></td>
+    <td class="letras_fila"><div align="center">27</div></td>
+    <td class="letras_fila"><div align="center">Determinado</div></td>
+    <td class="letras_fila"><div align="center">VERIFICADOR</div></td>
+    <td class="letras_fila"><div align="center">EXT. GUADALAJARA</div></td>
+    <td class="letras_fila"><div align="center">2100</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">x</div></td>
+    <td class="letras_fila"><div align="center">A</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">victoria.chavez</div></td>
+    <td class="letras_fila"><div align="center">2013-04-03 10:53:07</div></td>
+    <td class="letras_fila"><div align="center"></div></td>
+    <td class="letras_fila"><div align="center">2013-04-03 10:53:07</div></td>
+    <td class="letras_fila"><div align="center">70</div></td>
+    <td class="letras_fila"><div align="center">ASESORES EN MENSAJERIA, S.A. DE C.V.</div></td>
+    <td class="letras_fila"><div align="center">Fabiola Vargas Regalado</div></td>
+    
+  </tr>
+</table>
+</div>
+</body>
+</html>
